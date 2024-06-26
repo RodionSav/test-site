@@ -1,0 +1,17 @@
+@import "../styles/utils/typography";
+@import "../styles/utils/mixins";
+@import "../styles/header.scss";
+@import "../styles/protective.scss";
+@import "../styles/respirator.scss";
+@import "../styles/page.scss";
+@import "../styles/footer.scss";
+@import "../styles/about.scss";
+@import "../styles/disease.scss";
+@import "../styles/reasons.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

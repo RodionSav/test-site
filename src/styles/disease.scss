@@ -1,0 +1,31 @@
+@import "../styles/utils/typography";
+@import "../styles/utils/mixins";
+
+.disease {
+  margin-bottom: 120px;
+
+  &-container {
+    max-width: 750px;
+    margin: auto;
+  }
+  &__title {
+    @extend %rubik-700;
+    font-size: 48px;
+    line-height: 50px;
+    margin-top: 88px;
+  }
+
+  &__paragraph {
+    @extend %open-sans-400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: $paragraph-color;
+    margin-top: 37px;
+  }
+
+  &__button {
+    margin: auto;
+    margin-top: 35px;
+  }
+}

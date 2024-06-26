@@ -1,0 +1,84 @@
+@import "../styles/utils/typography";
+@import "../styles/utils/mixins";
+
+.about {
+  width: 100%;
+  height: 133px;
+  background-color: $button-and-back-color;
+
+  @include onPhone {
+    height: auto;
+  }
+
+  &-container {
+    margin: auto;
+
+    padding-top: 35px;
+
+    @include onPhone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @include onTablet {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 30px 0;
+    }
+
+    @include onDesktop {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1140px;
+    }
+  }
+  &__title {
+    @extend %rubik-500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $title-color;
+  }
+
+  &__paragraph {
+    @extend %open-sans-400;
+    font-size: 15px;
+    line-height: 30px;
+    color: $title-color;
+  }
+
+  &__item {
+    @include onPhone {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    @include onTablet {
+      display: flex;
+      align-items: center;
+      width: 200px;
+      gap: 10px;
+    }
+
+    @include onDesktop {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding-right: 136px;
+      border-right: 1px solid $border-color;
+    }
+
+    &-third {
+      border-right: none;
+    }
+  }
+
+  &-img {
+    @include onTablet {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

@@ -1,0 +1,1217 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .disease__paragraph, .about__paragraph, .footer__copyright, .footer__item, .page__button, .page__paragraph, .respirator__button, .respirator__paragraph-about, .respirator__title-lab, .protective__item__paragraph, .protective__button-more, .protective__button-shop, .protective__paragraph, .header__item {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__subtitle-contact, .respirator__title-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .page__paragraph-selected, .protective__item__title {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.about__title, .footer__title, .protective__subtitle {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .disease__title, .page__title, .respirator__title-about, .protective__title {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .disease__paragraph, .about__paragraph, .footer__copyright, .footer__item, .page__button, .page__paragraph, .respirator__button, .respirator__paragraph-about, .respirator__title-lab, .protective__item__paragraph, .protective__button-more, .protective__button-shop, .protective__paragraph, .header__item {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__subtitle-contact, .respirator__title-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .page__paragraph-selected, .protective__item__title {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.about__title, .footer__title, .protective__subtitle {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .disease__title, .page__title, .respirator__title-about, .protective__title {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+.header {
+  position: relative;
+  z-index: 100000;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 80px;
+}
+@media (max-width: 640px) {
+  .header {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px 0;
+  }
+}
+@media (min-width: 1201px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+  }
+}
+.header-logo {
+  width: 161px;
+  height: 40px;
+  background-color: #c4c4c4;
+}
+.header__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@media (max-width: 1200px) {
+  .header__list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+@media (min-width: 1201px) {
+  .header__list {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+}
+.header__item {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.header__item:hover {
+  color: #1b5fc1;
+}
+.header__item__button {
+  width: 123px;
+  height: 47px;
+}
+.header__item__button:hover {
+  color: #1f9ff9;
+  background-color: #fff;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .disease__paragraph, .about__paragraph, .footer__copyright, .footer__item, .page__button, .page__paragraph, .respirator__button, .respirator__paragraph-about, .respirator__title-lab, .protective__item__paragraph, .protective__button-more, .protective__button-shop, .protective__paragraph, .header__item {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__subtitle-contact, .respirator__title-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .page__paragraph-selected, .protective__item__title {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.about__title, .footer__title, .protective__subtitle {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .disease__title, .page__title, .respirator__title-about, .protective__title {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+.protective__main-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.protective-back-img {
+  position: absolute;
+  left: 0;
+  top: 1000px;
+}
+@media (max-width: 1200px) {
+  .protective-back-img {
+    width: 100%;
+  }
+}
+.protective-container {
+  position: relative;
+  z-index: 1000;
+}
+@media (min-width: 1201px) {
+  .protective-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.protective__subtitle {
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffb800;
+}
+.protective__title {
+  font-size: 72px;
+  line-height: 82px;
+  color: #0c122d;
+}
+@media (max-width: 640px) {
+  .protective__title {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1201px) {
+  .protective__title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 1201px) {
+  .protective__title-container {
+    width: 555px;
+  }
+}
+.protective__paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  color: #575c74;
+}
+.protective__button-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 54px;
+}
+@media (max-width: 640px) {
+  .protective__button-container {
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .protective__button-container {
+    margin-bottom: 40px;
+  }
+}
+.protective__button-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b5fc1;
+  width: 125px;
+  height: 46px;
+  border-radius: 8px;
+  color: white;
+}
+.protective__button-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 46px;
+  border-radius: 8px;
+  border: 1px solid #ffb800;
+  color: #ffb800;
+  cursor: pointer;
+}
+.protective__button-more:hover {
+  background-color: #ffb800;
+  color: #fff;
+}
+.protective__item-container {
+  margin-top: 72px;
+}
+@media (min-width: 1201px) {
+  .protective__item-container {
+    display: flex;
+  }
+}
+.protective__item__title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #0c122d;
+}
+.protective__item__title-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.protective__item__paragraph {
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 60px;
+  color: #575c74;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .disease__paragraph, .about__paragraph, .footer__copyright, .footer__item, .page__button, .page__paragraph, .respirator__button, .respirator__paragraph-about, .respirator__title-lab, .header__item, .protective__paragraph, .protective__button-shop, .protective__button-more, .protective__item__paragraph {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__subtitle-contact, .respirator__title-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .page__paragraph-selected, .protective__item__title {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.about__title, .footer__title, .protective__subtitle {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .disease__title, .page__title, .respirator__title-about, .protective__title {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+.respirator {
+  padding-top: 133px;
+}
+@media (max-width: 640px) {
+  .respirator {
+    padding-top: 50px;
+  }
+}
+.respirator-container {
+  margin-bottom: 90px;
+}
+@media (min-width: 1201px) {
+  .respirator-container {
+    display: flex;
+    gap: 47px;
+  }
+}
+@media (max-width: 640px) {
+  .respirator-container-first {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 1200px) {
+  .respirator-container-first {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.respirator-container-about {
+  position: relative;
+  width: 570px;
+  height: 616px;
+  margin-bottom: 80px;
+}
+.respirator-container-contact {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+@media (max-width: 640px) {
+  .respirator-container-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (min-width: 1201px) {
+  .respirator-container-logo {
+    display: flex;
+    gap: 100px;
+  }
+}
+.respirator__main-container-about {
+  display: flex;
+}
+@media (max-width: 640px) {
+  .respirator__main-container-about {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .respirator__main-container-about {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .respirator__main-container-logo {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 1200px) {
+  .respirator__main-container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1201px) {
+  .respirator__main-container-logo {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    margin-bottom: 80px;
+  }
+}
+.respirator__title-about {
+  font-size: 20px;
+  line-height: 50px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.respirator__title-contact {
+  font-size: 14px;
+  line-height: 24px;
+  color: #1b5fc1;
+}
+.respirator__title-lab {
+  font-size: 15px;
+  line-height: 24px;
+  color: #575c74;
+}
+@media (max-width: 640px) {
+  .respirator__title-lab {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .respirator__title-lab {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1201px) {
+  .respirator__title-lab::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 1px;
+    width: 147px;
+    background-color: #ffb800;
+    bottom: 11px;
+    left: 160px;
+  }
+}
+.respirator__subtitle-contact {
+  font-size: 24px;
+  line-height: 24px;
+}
+.respirator__paragraph {
+  margin-top: 20px;
+}
+.respirator__paragraph-about {
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  width: 285px;
+  height: 332px;
+  position: absolute;
+  padding: 60px 30px 60px;
+  background-color: #1b5fc1;
+}
+.respirator__paragraph-about-first {
+  bottom: 24px;
+  right: 0;
+}
+.respirator__paragraph-about-second {
+  background-color: #fff;
+  color: #575c74;
+}
+.respirator__paragraph-about-third {
+  right: 0;
+  border-top-right-radius: 20px;
+}
+.respirator__paragraph-about-fourth {
+  width: 570px;
+  height: 284px;
+  background-color: #ffb800;
+  bottom: 24px;
+  border-bottom-right-radius: 20px;
+  color: #0c122d;
+  padding: 45px 38px 60px;
+}
+.respirator-img-about {
+  position: absolute;
+}
+.respirator__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 46px;
+  border-radius: 8px;
+  border: 1px solid #1b5fc1;
+  color: #1b5fc1;
+  cursor: pointer;
+}
+.respirator__button:hover {
+  background-color: #1b5fc1;
+  color: #fff;
+}
+.respirator__button::after {
+  content: "";
+  position: relative;
+  background-color: #fff;
+  width: 1px;
+  height: 46px;
+  left: 65px;
+}
+.respirator__button-container {
+  display: flex;
+  gap: 81px;
+  margin-top: 28px;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .disease__paragraph, .about__paragraph, .footer__copyright, .footer__item, .page__button, .page__paragraph, .header__item, .protective__paragraph, .protective__button-shop, .protective__button-more, .protective__item__paragraph, .respirator__title-lab, .respirator__paragraph-about, .respirator__button {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__title-contact, .respirator__subtitle-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .page__paragraph-selected, .protective__item__title {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.about__title, .footer__title, .protective__subtitle {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .disease__title, .page__title, .protective__title, .respirator__title-about {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+.page__section {
+  margin: auto;
+}
+@media (max-width: 640px) {
+  .page__section {
+    margin: 0 20px 0;
+  }
+}
+@media (max-width: 1200px) {
+  .page__section {
+    margin: 0 30px 0;
+  }
+}
+@media (min-width: 1201px) {
+  .page__section {
+    max-width: 1140px;
+  }
+}
+.page__title {
+  font-size: 48px;
+  line-height: 50px;
+  color: #0c122d;
+}
+.page__paragraph {
+  font-size: 16px;
+  line-height: 30px;
+  color: #575c74;
+}
+.page__paragraph-selected {
+  font-size: 16px;
+  line-height: 30px;
+  color: #0c122d;
+}
+.page__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b5fc1;
+  width: 115px;
+  height: 46px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 10px 15px 0px rgba(27, 95, 193, 0.19);
+}
+.page__button:hover {
+  color: #1f9ff9;
+  background-color: #fff;
+  border: 1px solid #1f9ff9;
+}
+@media (max-width: 640px) {
+  .page-img {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .page-img {
+    width: 100%;
+  }
+}
+.page__link {
+  text-decoration: none;
+  color: #0c122d;
+}
+.page__link:hover {
+  color: #1b5fc1;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .disease__paragraph, .about__paragraph, .footer__copyright, .footer__item, .header__item, .protective__paragraph, .protective__button-shop, .protective__button-more, .protective__item__paragraph, .respirator__title-lab, .respirator__paragraph-about, .respirator__button, .page__paragraph, .page__button {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__title-contact, .respirator__subtitle-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .protective__item__title, .page__paragraph-selected {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.about__title, .footer__title, .protective__subtitle {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .disease__title, .protective__title, .respirator__title-about, .page__title {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+.footer__title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #0c122d;
+}
+.footer__list {
+  list-style: none;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+@media (min-width: 1201px) {
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer__list-container {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.footer__item {
+  font-size: 15px;
+  line-height: 30px;
+  color: #575c74;
+  cursor: pointer;
+}
+.footer__item:hover {
+  color: #1b5fc1;
+}
+.footer__paragraph {
+  font-size: 15px;
+  margin-top: 33px;
+}
+@media (max-width: 1200px) {
+  .footer__paragraph {
+    width: 250px;
+  }
+}
+@media (min-width: 1201px) {
+  .footer__paragraph {
+    width: 340px;
+  }
+}
+.footer__main-container {
+  padding-top: 73px;
+  margin: auto;
+}
+@media (max-width: 640px) {
+  .footer__main-container {
+    padding: 20px 20px 0;
+  }
+}
+@media (max-width: 1200px) {
+  .footer__main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0;
+  }
+}
+@media (min-width: 1201px) {
+  .footer__main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+  }
+}
+.footer__back {
+  background-color: #ecf0f5;
+  width: 100%;
+}
+@media (min-width: 1201px) {
+  .footer__back {
+    height: 417px;
+  }
+}
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 30px;
+  color: #575c74;
+  border-top: 1px solid #e1e6ec;
+  padding-top: 31px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .disease__paragraph, .about__paragraph, .header__item, .protective__paragraph, .protective__button-shop, .protective__button-more, .protective__item__paragraph, .respirator__title-lab, .respirator__paragraph-about, .respirator__button, .page__paragraph, .page__button, .footer__item, .footer__copyright {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__title-contact, .respirator__subtitle-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .protective__item__title, .page__paragraph-selected {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.about__title, .protective__subtitle, .footer__title {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .disease__title, .protective__title, .respirator__title-about, .page__title {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+.about {
+  width: 100%;
+  height: 133px;
+  background-color: #ffb800;
+}
+@media (max-width: 640px) {
+  .about {
+    height: auto;
+  }
+}
+.about-container {
+  margin: auto;
+  padding-top: 35px;
+}
+@media (max-width: 640px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1200px) {
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px 0;
+  }
+}
+@media (min-width: 1201px) {
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+  }
+}
+.about__title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #0c122d;
+}
+.about__paragraph {
+  font-size: 15px;
+  line-height: 30px;
+  color: #0c122d;
+}
+@media (max-width: 640px) {
+  .about__item {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .about__item {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+  }
+}
+@media (min-width: 1201px) {
+  .about__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-right: 136px;
+    border-right: 1px solid #e0e0e0;
+  }
+}
+.about__item-third {
+  border-right: none;
+}
+@media (max-width: 1200px) {
+  .about-img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .disease__paragraph, .header__item, .protective__paragraph, .protective__button-shop, .protective__button-more, .protective__item__paragraph, .respirator__title-lab, .respirator__paragraph-about, .respirator__button, .page__paragraph, .page__button, .footer__item, .footer__copyright, .about__paragraph {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__title-contact, .respirator__subtitle-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .protective__item__title, .page__paragraph-selected {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.protective__subtitle, .footer__title, .about__title {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .disease__title, .protective__title, .respirator__title-about, .page__title {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+.disease {
+  margin-bottom: 120px;
+}
+.disease-container {
+  max-width: 750px;
+  margin: auto;
+}
+.disease__title {
+  font-size: 48px;
+  line-height: 50px;
+  margin-top: 88px;
+}
+.disease__paragraph {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #575c74;
+  margin-top: 37px;
+}
+.disease__button {
+  margin: auto;
+  margin-top: 35px;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+.reasons__item__paragraph, .reasons__paragraph, .header__item, .protective__paragraph, .protective__button-shop, .protective__button-more, .protective__item__paragraph, .respirator__title-lab, .respirator__paragraph-about, .respirator__button, .page__paragraph, .page__button, .footer__item, .footer__copyright, .about__paragraph, .disease__paragraph {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+.respirator__title-contact, .respirator__subtitle-contact {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+.reasons__item__title, .protective__item__title, .page__paragraph-selected {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+.protective__subtitle, .footer__title, .about__title {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.reasons__title, .protective__title, .respirator__title-about, .page__title, .disease__title {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+.reasons-container {
+  margin-bottom: 40px;
+}
+@media (min-width: 1201px) {
+  .reasons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+  }
+}
+.reasons__title {
+  font-size: 48px;
+  line-height: 50px;
+  color: #0c122d;
+}
+.reasons__paragraph {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.reasons__item {
+  display: flex;
+  align-items: start;
+  gap: 18px;
+  margin-top: 30px;
+}
+@media (min-width: 1201px) {
+  .reasons__item {
+    width: 312px;
+  }
+}
+@media (min-width: 1201px) {
+  .reasons__item-container {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.reasons__item__title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #0c122d;
+}
+.reasons__item__paragraph {
+  font-size: 15px;
+  line-height: 22px;
+  color: #575c74;
+}
+@media (max-width: 640px) {
+  .reasons-img-reviews {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .reasons-img-reviews {
+    width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=styles.css.map */

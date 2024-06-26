@@ -1,0 +1,75 @@
+@import "../styles/utils/typography";
+@import "../styles/utils/mixins";
+@import "../styles/utils/variables";
+
+.header {
+  position: relative;
+  z-index: 100000;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 80px;
+
+  @include onPhone {
+    display: none;
+  }
+
+  @include onTablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px 0;
+  }
+
+  @include onDesktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+  }
+
+  &-logo {
+    width: 161px;
+    height: 40px;
+    background-color: $logo-color;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    @include onTablet {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    @include onDesktop {
+      display: flex;
+      align-items: center;
+      gap: 45px;
+    }
+  }
+
+  &__item {
+    @extend %open-sans-400;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    cursor: pointer;
+
+    &:hover {
+      color: $button-color;
+    }
+
+    &__button {
+      width: 123px;
+      height: 47px;
+
+      &:hover {
+        color: $hover-button-color;
+        background-color: $white-color;
+      }
+    }
+  }
+}

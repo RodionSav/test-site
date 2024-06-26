@@ -1,0 +1,75 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../../../src/fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../../../src/fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../../../src/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 700;
+}
+
+%open-sans-400 {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 400;
+}
+
+%open-sans-500 {
+  font-family: OpenSans-Medium, sans-serif;
+  font-weight: 500;
+}
+
+%open-sans-600 {
+  font-family: OpenSans-Regular, sans-serif;
+  font-weight: 600;
+}
+
+%open-sans-700 {
+  font-family: OpenSans-Semibold, sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Rubik-Regular;
+  src: url(../../../src/fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../../../src/fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Rubik-Semibold;
+  src: url(../../../src/fonts/Rubik-SemiBold.ttf);
+  font-weight: 700;
+}
+
+%rubik-400 {
+  font-family: Rubik-Regular, sans-serif;
+  font-weight: 400;
+}
+
+%rubik-500 {
+  font-family: Rubik-Medium, sans-serif;
+  font-weight: 500;
+}
+
+%rubik-600 {
+  font-family: Rubik-Regular, sans-serif;
+  font-weight: 600;
+}
+
+%rubik-700 {
+  font-family: Rubik-Semibold, sans-serif;
+  font-weight: 700;
+}

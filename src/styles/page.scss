@@ -1,0 +1,80 @@
+@import "../styles/utils/typography";
+@import "../styles/utils/mixins";
+
+.page {
+  &__section {
+    margin: auto;
+
+    @include onPhone {
+      margin: 0 20px 0;
+    }
+
+    @include onTablet {
+      margin: 0 30px 0;
+    }
+
+    @include onDesktop {
+      max-width: 1140px;
+    }
+  }
+
+  &__title {
+    @extend %rubik-700;
+    font-size: 48px;
+    line-height: 50px;
+    color: $title-color;
+  }
+
+  &__paragraph {
+    @extend %open-sans-400;
+    font-size: 16px;
+    line-height: 30px;
+    color: $paragraph-color;
+
+    &-selected {
+      @extend %open-sans-700;
+      font-size: 16px;
+      line-height: 30px;
+      color: $title-color;
+    }
+  }
+
+  &__button {
+    @extend %open-sans-400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $button-color;
+    width: 115px;
+    height: 46px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px 0px rgba(27, 95, 193, 0.19);
+
+    &:hover {
+      color: $hover-button-color;
+      background-color: $white-color;
+      border: 1px solid $hover-button-color;
+    }
+  }
+
+  &-img {
+    @include onPhone {
+      width: 100%;
+    }
+
+    @include onTablet {
+      width: 100%;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $title-color;
+
+    &:hover {
+      color: $button-color;
+    }
+  }
+}
